@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_shape"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:id="@+id/imagemProduto"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/nomeProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imagemProduto"
+            android:layout_marginTop="25dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/valorProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imagemProduto"
+            android:layout_below="@id/nomeProduto"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/qtdeProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_qtde"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

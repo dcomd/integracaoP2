@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ger7 Food</string>
+    <string name="titulo_cardapio">TOQUE NO PRODUTO PARA ADICIONAR NO PEDIDO</string>
+    <string name="confirmar_pedido">FINALIZAR PEDIDO</string>
+    <string name="pagamento">FINALIZAR PEDIDO</string>
+    <string name="cancelar_pedido">CANCELAR</string>
+    <string name="lista_qtde">Quantidade</string>
+    <string name="forma_pagamento">FORMA DE PAGAMENTO</string>
+    <string name="pedido_vazio">PEDIDO VAZIO!</string>
+    <string name="botao_pagar">PAGAR</string>
+    <string name="rb_voucher">VOUCHER</string>
+    <string name="rb_debito">DÉBITO</string>
+    <string name="rb_pix">PIX</string>
+    <string name="rb_parc_2x">CRÈDITO PARCELADO LOJA 2X</string>
+    <string name="rb_parc_3x">CRÉDITO PARCELADO EMISSOR 3X</string>
+    <string name="rb_vista">CRÉDITO À VISTA</string>
+    <string name="botao_cancelar">VOLTAR</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="configuracao">Configuração</string>
+    <string name="telecarga">Atualizações</string>
+    <string name="licenca">Ativar licença</string>
+    <string name="parametrizar">Parametrizar</string>
+    <string name="cancelamento">Cancelar transação</string>
+    <string name="nota">_____________________________________\nNFC-e IMPRESSA EM MODO DE\nDEMONSTRAÇÃO. ESTE DOCUMENTO\nNÂO TEM VALOR FISCAL\nConsulte pela chave de acesso em:\nhttp://ger7.com.br/jahajkdhajguiq\n______________________________________</string>
+    <string name="log_de_transacoes">Log de Transacoes</string>
+    <string name="desfazimento">Desfazimento</string>
+
+</resources>

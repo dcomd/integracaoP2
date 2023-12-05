@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundo">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar_pagamneto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff">
+    </Toolbar>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/layout_shape"
+       android:orientation="vertical"
+       android:layout_marginHorizontal="20dp"
+       >
+        <TextView
+           android:id="@+id/pedido"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_margin="10dp"
+           />
+       <TextView
+           android:id="@+id/total"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:textStyle="bold"
+           android:textSize="25dp"
+           android:layout_margin="10dp" />
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/tipotransacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forma_pagamento"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgproduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <RadioButton
+            android:id="@+id/creditoVista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_vista" />
+
+        <RadioButton
+            android:id="@+id/creditoParc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_parc_3x" />
+
+        <RadioButton
+            android:id="@+id/creditoParc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_parc_2x" />
+
+        <RadioButton
+            android:id="@+id/debito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_debito" />
+
+        <RadioButton
+            android:id="@+id/voucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_voucher" />
+
+        <RadioButton
+            android:id="@+id/pix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/rb_pix" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaotrs"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/botao_pagar"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/card"
+        android:background="@drawable/action_button_idle"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/botao_cancelar"
+        android:textStyle="bold"
+        android:background="@drawable/action_button_idle"
+        android:onClick="cancelaPedido"
+        android:drawableLeft="@drawable/cancel"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp" />
+
+</LinearLayout>
+</ScrollView>
